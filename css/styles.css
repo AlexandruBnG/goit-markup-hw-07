@@ -994,7 +994,7 @@ textarea:focus {
 .container-input-send {
   display: flex;
   justify-content: center;
-  padding-top: 15px;
+  padding-top:31px;
 }
 .accept {
   display: flex;
@@ -1514,7 +1514,6 @@ form {
   margin-top: 0px;
 }
 .container-text {
-  width: 370px;
   height: 40px;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -1593,19 +1592,24 @@ color: #757575;
     letter-spacing: 0.36px;
     text-decoration-line: underline;
 }
-.input-container{
-  width: 336px;
-}
 
  .box {
    top: 2px;
-   left: 7px;
-   width: 13px;
-   height: 13px;
+   left: 1px;
+   width: 12px;
+   height: 12px;
    position: absolute ;
  }
 
  input:checked {
    visibility: hidden;
  }
+.terms-and-conditions {
+  top: 2px;
+  z-index: 1;
+  position: relative;
+  margin-left:0px;
+  
+}
+
 }
