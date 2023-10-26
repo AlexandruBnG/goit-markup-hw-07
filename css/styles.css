@@ -74,11 +74,19 @@ ul {
   margin-left: 93px;
   gap: 50px;
 }
+
+.portofolio-border{
+  border-bottom: 4px solid #2196f3;
+    border-radius: 2px;
+    padding-bottom: 24px;
+}
+
 .studio-border {
   border-bottom: 4px solid #2196f3;
   border-radius: 2px;
   padding-bottom: 24px;
 }
+
 .navigation {
   text-decoration: none;
   color: #212121;
@@ -88,6 +96,8 @@ ul {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
+
+  
 }
 .mail-gsm-section {
   margin-top: 0px;
@@ -1339,6 +1349,7 @@ input:checked {
   display: block;
 }
 
+
 .container-cards-html{
   display: block;
 }
@@ -1360,8 +1371,8 @@ input:checked {
 
 .cards-html {
   
-  width: 354px;
-  height: 536px;
+  width: 100%;
+  height: 100%;
   border-radius: 0px 0px 4px 4px;
   background: #fff;
   /* material shadow v1 */
@@ -1399,7 +1410,6 @@ input:checked {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 314px;
   color: #212121;
   text-align: center;
   font-family: Roboto;
@@ -1410,6 +1420,7 @@ input:checked {
   letter-spacing: 0.84px;
   margin-top:0px;
   margin-bottom: 0px;
+  width: 100%;
 }
 
 
@@ -1705,6 +1716,46 @@ color: #757575;
   z-index: 1;
   position: relative;
   margin-left:0px;
+}
+
+.portofolio-img-section {
+  background-color: var(--color);
+  display: flex;
+  justify-content: center;
+  gap:30px;
+  margin-bottom: 94px;
+  
+}
+
+.portofolio-img-section ul {
+  display: flex;
+  justify-content: center;
+  margin:0;
+  gap:50px;
+  flex-wrap: wrap;
+  
+}
+
+.cards-portofolio{
+  width: 354px;
+  height: 404px;
+}
+
+.portofolio-buttons {
+  background-color: var(--color);
+}
+
+.portofolio-buttons ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  justify-content: center;
+  padding-top: 94px;
+  padding-bottom: 50px;
+  gap: 8px;
+  padding-left: 0px;
 }
 
 }
