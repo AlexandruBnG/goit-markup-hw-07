@@ -1108,7 +1108,7 @@ input:checked {
     }
 
   
-
+    
 
 
 
@@ -1267,7 +1267,8 @@ input:checked {
   margin: auto;
   padding: 0 15px;
   justify-content: center;
-  gap: calc(5% + 10px);
+  gap:30px; 
+  
  
 }
 
@@ -1319,7 +1320,7 @@ input:checked {
   /* 171.429% */
   letter-spacing: 0.42px;
   margin-top:0px;
-  margin-bottom:30px;
+  margin-bottom: 30px;
 }
 
 .svg-div-4-icons-tablet{
@@ -1351,7 +1352,9 @@ input:checked {
 }
 
 .img-person-section-test{
+  background: #F5F4FA;
   display: block;
+  padding:0 15px;
 }
 
 
@@ -1364,8 +1367,8 @@ input:checked {
   margin: 0;
   display: flex;
   justify-content: center;
-  gap: calc(5% + 3px);
-  margin-bottom: 30px;
+  gap:30px;
+  padding-bottom: 30px;
   
 
 }
@@ -1377,7 +1380,7 @@ input:checked {
 .cards-html {
   
   width: 100%;
-  height: 100%;
+  height: 536px;
   border-radius: 0px 0px 4px 4px;
   background: #fff;
   /* material shadow v1 */
@@ -1426,6 +1429,13 @@ input:checked {
   margin-top:0px;
   margin-bottom: 0px;
   width: 100%;
+  padding: 0 15px;
+}
+
+.regular-customers-title{
+  padding: 0 15px;
+  margin-top:60px;
+  margin-bottom: 30px;
 }
 
 
@@ -1439,9 +1449,11 @@ input:checked {
 }
 
 .regular-customers-section-2{
+  margin-bottom:60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 0 15px;
 }
 
 .regular-customers{
@@ -1449,7 +1461,7 @@ input:checked {
   margin: 0;
     display: flex;
     justify-content: center;
-    gap: 4%
+    gap:30px;
     
   
 }
@@ -1488,6 +1500,20 @@ input:checked {
   display: flex;
   flex-direction: column;
   
+}
+
+.container1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.find-us-on-tittle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
   
  .container1-2{
@@ -1747,9 +1773,8 @@ color: #757575;
 
 .cards-portofolio{
   width: 354px;
-  height: 404px;
+  
 }
-
 .portofolio-buttons {
   background-color: var(--color);
 }
@@ -1765,6 +1790,36 @@ color: #757575;
   padding-bottom: 50px;
   gap: 8px;
   padding-left: 0px;
+}
+
+.container{
+  width: 352,5px;
+ 
+}
+
+.card{
+  width: 354px;
+  height: 294px;
+}
+
+.titleh2{
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.contacts-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscribe-tittle{
+  padding-bottom: 10px;
+}
+
+.email-input{
+  margin-bottom: 10px;
 }
 
 }
@@ -1832,37 +1887,40 @@ html,body{
 }
 
 .container-4-icons-paragraphs-mobile {
-    padding: 0 15px;
+    width: 450px;
     display: flex;
     flex-direction: column;
-    gap: calc(5% + 10px);
     display:flex;
     align-items: center;
+    margin:auto;
   
   
 }
 
 
 .test009{
-  
+  width: auto;
 }
 
 .test008{
-  width: 450px;
+  width: auto;
   display: flex;
   flex-direction: column;
  justify-content: center;
 }
 
 .test007 {
-  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 450px;
+  width: auto;
   height: 120px;
   border-radius: 4px;
   background: #F5F4FA;
+}
+
+.test006{
+  width: auto;
 }
 
 .test006 h3 {
@@ -1878,6 +1936,7 @@ html,body{
   margin-bottom: 10px;
   display: flex;
   justify-content: center;
+  
  
 }
 
