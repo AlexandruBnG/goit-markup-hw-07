@@ -3,7 +3,9 @@
 }
 
 
-
+.regular-customers-section-3{
+  display: none;
+}
 
 .img-person-section-test{
 display: none;
@@ -1093,7 +1095,9 @@ input:checked {
 
 
 
-
+    .regular-customers-section-3{
+      display: none;
+    }
 
 
 
@@ -1241,6 +1245,7 @@ input:checked {
     border: unset;
     margin-top: 0px;
     margin-bottom: 118px;
+    padding: auto;
   }
 
   .index-button:focus {
@@ -1426,6 +1431,10 @@ input:checked {
 
 
 .regular-customers-section{
+  display: none;
+}
+
+.regular-customers-section3{
   display: none;
 }
 
@@ -1823,18 +1832,30 @@ html,body{
 }
 
 .container-4-icons-paragraphs-mobile {
-  margin: auto;
     padding: 0 15px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     gap: calc(5% + 10px);
-  
+    display:flex;
+    align-items: center;
   
   
 }
 
 
+.test009{
+  
+}
+
+.test008{
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+}
+
 .test007 {
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1857,6 +1878,7 @@ html,body{
   margin-bottom: 10px;
   display: flex;
   justify-content: center;
+ 
 }
 
 .test006 p {
@@ -1871,6 +1893,8 @@ html,body{
   letter-spacing: 0.42px;
   margin-top: 0px;
   margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 .svg-div-4-icons-mobile{
@@ -1907,7 +1931,86 @@ html,body{
  
 }
 
+.img-person-section-test{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
+}
+
+.container-cards-html{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-cards-html ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:30px;
+}
+
+.container-cards-html li{
+  display: flex;
+  justify-content: center;
+}
+
+.regular-customers-section-2{
+  display: none;
+}
+
+.regular-customers-section-3{
+  display: block;
+}
+.regular-customers1, .regular-customers2, .regular-customers3{
+  display: flex;
+  width: 100%;
+  gap:30px;
+  justify-content: center;
+}
+
+.container1-2{
+  display: block;
+}
+
+.contacts-section{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  width: 206px;
+}
+.container1 a{
+  display: flex;
+  justify-content: center;
+}
+
+.container2 h3{
+  display: flex;
+  justify-content: center;
+}
+.container2{
+  padding-top:60px;
+  margin-top:0px;
+}
+.find-us-on-tittle h3{
+  margin-bottom: 20px;
+}
+.container3{
+  margin-top:0px;
+}
+
+.subscribe-tittle{
+padding-bottom: 10px;
+}
+
+.email-input{
+  margin-bottom: 10px;
+}
+
+.svg-container{
+  width: 210px;
+}
 }
   
 
