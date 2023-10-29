@@ -2,6 +2,17 @@
   --color: #fff;
 }
 
+.menu-button{
+  display: none;
+}
+
+.js-menu-container{
+  display: none;
+}
+
+.nav-container-mobile{
+  display: none;
+}
 
 .regular-customers-section-3{
   display: none;
@@ -1091,8 +1102,15 @@ input:checked {
       overflow-x: hidden;
     }
 
+    .js-menu-container{
+      display: none;
+    }
 
 
+
+    .nav-container-mobile{
+      display: none;
+    }
 
 
     .regular-customers-section-3{
@@ -1618,9 +1636,9 @@ form {
 }
 
 .modal-content{
-  padding: 40px 40px 40px 40px;
+  margin:0 15px;
   display: flex;
-  height:auto;
+  
 }
 
 .title-modal {
@@ -1629,12 +1647,13 @@ form {
   color: #212121;
   text-align: center;
   font-family: Roboto;
-  font-size: 20px;
+  font-size: 19px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.6px;
-  margin-bottom: 26px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .containers-modal {
   width: 370px;
@@ -1836,8 +1855,16 @@ html,body{
   overflow-x:hidden;
 }
 
+
+
+
+
+
+
+
+
 .main-navigation {
-  display: none;
+  display:none ;
 }
 
 .mail-gsm-section {
@@ -1884,19 +1911,17 @@ html,body{
 
 .container-4-icons-paragraphs {
   display: none;
+  width: 90vw;
 }
 
 .container-4-icons-paragraphs-mobile {
-    width: 450px;
     display: flex;
     flex-direction: column;
     display:flex;
     align-items: center;
     margin:auto;
-  
-  
+    width: 90vw;
 }
-
 
 .test009{
   width: auto;
@@ -1961,14 +1986,14 @@ html,body{
   height: 70px;
 }
 
-.cards-html{
-  width: 450px;
-  height: 622px;
+.cards-html {
+  width: 90%;
+  height:100%;
 }
 
-.cards-html img{
-  width: 450px;
-  height: 460px;
+.cards-html img {
+  width: 100%;
+  height: 100%;
 }
 
 .address-containers {
@@ -1986,9 +2011,6 @@ html,body{
   align-items: center;
 }
 
-.container2{
- 
-}
 
 .img-person-section-test{
   display: flex;
@@ -1998,12 +2020,15 @@ html,body{
 }
 
 .container-cards-html{
+  width: 90vw;
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .container-cards-html ul{
+  width: 90vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -2020,11 +2045,14 @@ html,body{
 }
 
 .regular-customers-section-3{
+  padding: 0 15px;
+  margin: auto;
   display: block;
 }
 .regular-customers1, .regular-customers2, .regular-customers3{
+  margin:auto;
   display: flex;
-  width: 100%;
+  width: 90vw;
   gap:30px;
   justify-content: center;
 }
@@ -2064,12 +2092,254 @@ padding-bottom: 10px;
 }
 
 .email-input{
-  margin-bottom: 10px;
+  margin: auto;
+  width: 80vw;
 }
+
 
 .svg-container{
   width: 210px;
 }
+
+
+
+.menu-button svg {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  position: absolute;
+  position: fixed;
+  top:20px;
+  right:25px;
+}
+
+.menu-button svg:hover {
+  fill: var(--active-link);
+}
+
+.js-menu-container {
+  display: none;
+}
+
+.menu-toggle {
+  padding: 0;
+}
+
+.js-menu-container.is-open {
+  display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.content-menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 40px 40px 40px 40px;
+}
+
+.js-menu-container .js-close-menu {
+  border: none;
+  background: none;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.js-menu-container .js-close-menu svg {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+.js-menu-container .js-close-menu svg:hover {
+  fill: var(--active-link);
+}
+
+.menu-drawer-navigation ul {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.menu-drawer-navigation li a{
+  width: 219px;
+    height: 48px;
+    flex-shrink: 0;
+    color: #212121;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    border: none;
+    text-decoration-line: none;
+}
+
+.menu-drawer-navigation{
+  margin-bottom: 150px;
+}
+
+.contact-container-mobile{
+  display:block;
+  padding-left:0px;
+}
+
+.contact-container-mobile li {
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+
+.current :focus{
+color:blue;
+}
+
+.phone-ct{
+  margin-bottom: 32px;
+  color: #757575;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+
+.mail-gsm-section-mobile{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 65px;
+}
+.mail-container{
+  display: flex;
+  justify-content: start;
+  padding-bottom: 32px;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.68px;
+}
+
+.studio-border{
+  border:none;
+  padding-bottom:0px;
+}
+
+.hover-icom{
+  color: #757575;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+
+.icons-nav-envelope-menu-mobile{
+  width: 24px;
+  height: 20px;
+}
+
+.menu-drawer-navigation a {
+  padding: 0;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.8px;
+}
+
+.menu-drawer-navigation ul {
+  margin: 0;
+  padding: 0;
+}
+
+.current {
+  border: none;
+}
+
+.hover-icon .icons-nav-envelope {
+  width: 24px;
+  height: 20.003px;
+}
+
+.hover-icon .icons-nav-smartphone {
+  width: 20px;
+  height: 24px;
+}
+
+.info-phone {
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.68px;
+}
+
+.info-mail {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+
+.contact-and-social-media {
+  display: flex;
+  
+  flex-direction: column;
+  gap: 64px;
+}
+
+.social-media-links-js-menu {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.social-media-links-js-menu a {
+  color: #2196F3;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    /* 122.222% */
+    letter-spacing: 0.36px;
+  text-decoration: none;
+}
+
+.social-media-links-js-menu svg {
+  width: 2px;
+  height: 22px;
+  fill: rgba(33, 33, 33);
+}
+
+.menu-button{
+  display: flex;
+}
+
+.svg-dimension{
+  width: 100%;
+  height: 100%;
+}
+
 }
   
 
