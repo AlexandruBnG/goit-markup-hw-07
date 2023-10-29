@@ -2114,7 +2114,7 @@ padding-bottom: 10px;
 }
 
 .menu-button svg:hover {
-  fill: var(--active-link);
+  fill:#2196F3;
 }
 
 .js-menu-container {
@@ -2123,6 +2123,10 @@ padding-bottom: 10px;
 
 .menu-toggle {
   padding: 0;
+}
+
+.menu-toggle svg :hover{
+color: #2196F3;
 }
 
 .js-menu-container.is-open {
@@ -2160,7 +2164,7 @@ padding-bottom: 10px;
 }
 
 .js-menu-container .js-close-menu svg:hover {
-  fill: var(--active-link);
+  fill:#2196F3;
 }
 
 .menu-drawer-navigation ul {
@@ -2335,10 +2339,13 @@ color:blue;
   display: flex;
 }
 
+
 .svg-dimension{
   width: 100%;
   height: 100%;
 }
+
+
 
 }
   
